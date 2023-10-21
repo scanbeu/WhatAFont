@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title>Jeremy Zucker - comethru</title>
+</head>
+<body class="body" style="position: relative; background-color: #e5eaed;">
+
+    <div class="container">
+        <img src="comethruimage.jpg" alt="comethruimage" class="img">
+
+        <div  class="imgrightheading">
+            <h1>Jeremy Zucker - comethru</h1>
+            <p>[Verse 1]<br>
+            I might lose my mind<br>
+            Just glad that I can breathe, yeah</p>
+        </div>
+    </div>
+
+    <div class="playpause">
+        <h2 style="margin-left: 35px;margin-top: 60px;"> PLAY/PAUSE</h2>
+        <div style="margin-left: 90px; margin-top: 70px;"  id="playpause-button" onclick="togglePlayPause()">
+            <img id="playpause-icon" src="play.png" alt="Play" style="height: 50px;width: auto; background-color: white;">
+        </div>
+    </div>
+    
+    <div class="videoplayer"></div>
+
+    <div class="lyrics" id="lyrics" style="color: #bfc0c0;">
+        <p><b style="color: #FF5733;">I might</b> <b style="color: #bfc0c0;">lose</b> <i style="color: #3498db;">my</i> <b style="color: #FF5733;">mind</b></p>
+        <p><b style="color: #FF5733;">Waking</b> when the sun's</p>
+        <p><b style="color: #bfc0c0;">down</b></p>
+        <p><b >Riding</b> <i style="color: #3498db;">all these</i> <b style="color: #FF5733;">highs</b></p>
+        <p><b style="color: #FF5733;">Waiting for the</b> <b style="color: #FF5733;">comedown</b></p>
+        <p><b style="color: #FF5733;">Walk</b> these streets with</p>
+        <p><b style="color: #FF5733;">me</b></p>
+        <p><b >I'm doing</b> <i style="color: #3498db;">decently</i></p>
+        <p><b >Just</b> <i style="color: #3498db;">glad</i> <b style="color: #FF5733;">that</b> <i style="color: #3498db;">I can</i></p>
+        <p><b >breathe</b>, <b style="color: #FF5733;">yeah</b></p>
+        <p><b >I'm trying to</b></p>
+        <p><b style="color: #FF5733;">It's</b> <i style="color: #3498db;">alright</i> to <i style="color: #3498db;">not be fine</i></p>
+        <p><b >on your own</b></p>
+   <p>Now I'm <b style="color: #FF5733;">shaking</b>, drinking</p>
+        <p>all this <b style="color: #bfc0c0;">coffee</b></p>
+        <p>These last few weeks have</p>
+        <p>been <b style="color: #FF5733;">exhausting</b></p>
+        <p>I'm <em style="color: #3498db;">lost in</em> my <b style="color: #FF5733;">imagination</b></p>
+        <p>And there's <b style="color: #FF5733;">one thing</b> that</p>
+        <p>I <i style="color: #3498db;">need from you</i></p>
+        <p>Can you <b style="color: #FF5733;">come through,</b></p>
+        <p>through <b style="color: #FF5733;">?</b></p>
+        <p>Through, <b style="color: #FF5733;">yeah</b></p>
+        <p>And there's <b style="color: #FF5733;">one thing</b> that</p>
+        <p>I <b style="color: #FF5733;">need</b> <em style="color: #3498db;">from you</em></p>
+   
+        <p><i>Can</i> you come <b style="color: #FF5733;">through</b>?</p>
+        <p>Ain't got much to do</p>
+        <p>Too <i>old for my hometown</i></p>
+        <p>Went to bed at <b style="color: #FF5733;">noon</b></p>
+        <p><b style="color: #FF5733;">Couldn't</b> put <em>my phone</em></p>
+        <p><b style="color: #FF5733;">down</b></p>
+        <p>Scrolling patiently</p>
+        <p>It's all the <b style="color: #3498db;">same</b> to me</p>
+        <p>Just <b style="color: #FF5733;">faces</b> <i>on a screen,</i></p>
+        <p>yeah</p>
+        <p>I'm trying to <b style="color: #3498db;">realize</b></p>
+        <p>It's <em style="color: #3498db;">alright</em> to not be fine</p>
+        <p>on your own</p>
+        <p>Now I'm <i>shaking, drinking</i></p>
+  
+        <p>all this coffee</p>
+        <p>These last few weeks have</p>
+        <p>been <b style="color: #FF5733;">exhausting</b></p>
+        <p>I'm <b style="color: #FF5733;">lost</b> in my <i style="color: #3498db;">imagination</i></p>
+        <p>And there's <b style="color: #FF5733;">one thing</b> that</p>
+        <p>I <b style="color: #FF5733;">need from you</b></p>
+        <p><i>Can you</i> come <b style="color: #FF5733;">through,</b></p>
+        <p><b style="color: #FF5733;">through?</b></p>
+        <p>Through, yeah</p>
+        <p>And there's <b style="color: #FF5733;">one thing</b> that</p>
+        <p>I <b style="color: #FF5733;">need from you</b></p>
+        <p><em>Can you</em> come</p>
+        <p><b style="color: #FF5733;">Through, through</b></p>
+        <p><b style="color: #FF5733;">Through</b>, yeah</p>
+        <p>And there's <em>one thing</em> that</p>
+        <p>I <b style="color: #FF5733;">need from you</b></p>
+        <p>Can you <b style="color: #FF5733;">come through?</b></p>
+   
+                                           
+    </div>
+
+<!-- <div  
+    style="height: 50px; width: 50px;border-color: blue; background-color:white; margin-top: 500px; margin-right: 200px;"onclick="document.getElementById('myAudio').play()">
+</div> -->
+
+<audio id="myAudio">
+    <source src="ComethruSong.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    const lyricsContainer = document.getElementById('lyrics');
+    const audioElement = document.getElementById('myAudio');
+
+    const highlightText = () => {
+        const paragraphs = Array.from(lyricsContainer.getElementsByTagName('p'));
+        paragraphs.forEach((paragraph) => {
+            const rect = paragraph.getBoundingClientRect();
+            if (rect.top >= 200 && rect.bottom <= window.innerHeight - 250) {
+                paragraph.classList.add('highlight');
+            } else {
+                paragraph.classList.remove('highlight');
+            }
+        });
+    };
+
+    lyricsContainer.addEventListener('scroll', highlightText);
+
+    // Call the function immediately to highlight text on load
+    highlightText();
+
+    // Scroll the lyrics container gradually over 3 minutes
+    let scrollInterval;
+    const startScrolling = () => {
+        scrollInterval = setInterval(() => {
+            if (lyricsContainer.scrollTop < lyricsContainer.scrollHeight - lyricsContainer.clientHeight) {
+                lyricsContainer.scrollTop += 1;
+            } else {
+                clearInterval(scrollInterval);
+            }
+        }, (3 * 60 * 1000) / (lyricsContainer.scrollHeight - lyricsContainer.clientHeight));
+    };
+
+    // Start scrolling when audio starts playing
+    audioElement.addEventListener('play', startScrolling);
+});
+
+</script>
+<script>
+    const audioElement = document.getElementById('myAudio');
+    const playpauseButton = document.getElementById('playpause-button');
+    const playpauseIcon = document.getElementById('playpause-icon');
+    let scrollInterval; // Define the scrollInterval here
+
+    function togglePlayPause() {
+        if (audioElement.paused) {
+            audioElement.play();
+            startScrolling();
+        } else {
+            audioElement.pause();
+            pauseScrolling(); // Call a function to pause scrolling
+        }
+    }
+
+    function startScrolling() {
+        scrollInterval = setInterval(() => {
+            if (lyricsContainer.scrollTop < lyricsContainer.scrollHeight - lyricsContainer.clientHeight) {
+                lyricsContainer.scrollTop += 1;
+            } else {
+                clearInterval(scrollInterval);
+            }
+        }, (0.2 * 60 * 1000) / (lyricsContainer.scrollHeight - lyricsContainer.clientHeight));
+    }
+
+    function pauseScrolling() {
+        clearInterval(scrollInterval);
+    }
+
+    // Update the button and audio state when the audio playback changes
+    audioElement.addEventListener('play', () => {
+        playpauseIcon.src = 'pause.png';
+    });
+
+    audioElement.addEventListener('pause', () => {
+        playpauseIcon.src = 'play.png';
+    });
+</script>
+
+
+</body>
+
+</html>

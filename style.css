@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    margin-right: 42%;
+    position: relative;
+    text-align: left;
+    padding-right: 38px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    width: 50%; /* Adjust the width as needed */
+}
+.img {
+    max-height: 200px; /* Reduced by 100px */
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, -0.2);
+}
+.container .imgrightheading{
+    text-align: left;
+    margin-left: -20%;  
+}
+
+.lyrics{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    overflow: auto;
+    width: 400px;
+    height: 515px;
+    text-align: left;
+    white-space: nowrap; 
+}
+.highlight {
+    color:#000000; /* Replace with your desired highlight color */
+    /* font-weight: bolder; */
+}
+.playpause{
+    width: 230px;
+    height: 295px;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    background:white;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.videoplayer{
+    width: 445px;
+    height: 295px;
+    position: absolute;
+    top: 260px;
+    left: 270px;
+    background:white;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.playpause-button{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+/* Emotion-specific styles */
+.lyrics .e2 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 18px;
+    color: #FF5733; /* Change the color to match the emotion */
+    font-weight: bold;
+}
+
+.lyrics .e3 {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #3498db; /* Change the color to match the emotion */
+    font-style: italic;
+}
